@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoka — Gizlilik Politikası</title>
+<style>
+  :root { --ink:#1a1a2e; --muted:#5a5a72; --accent:#0d8f80; --line:#e4e4ee; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65; color: var(--ink); background: #fafafc;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; background: #fff;
+          padding: 48px 44px; border-radius: 16px;
+          box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+  h1 { font-size: 1.9rem; margin: 0 0 6px; letter-spacing: -.02em; }
+  .date { color: var(--muted); font-size: .9rem; margin-bottom: 36px; }
+  h2 { font-size: 1.15rem; margin: 34px 0 10px; color: var(--accent); }
+  p, li { color: #2c2c40; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 7px; }
+  .box { background: #e9f6f4; border-left: 3px solid var(--accent);
+         padding: 16px 20px; border-radius: 8px; margin: 22px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: .93rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: .88rem; }
+  .en { margin-top: 60px; padding-top: 40px; border-top: 2px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Zoka — Gizlilik Politikası</h1>
+  <div class="date">Son güncelleme: 7 Eylül 2026</div>
+
+  <div class="box">
+    <strong>Kısaca:</strong> Zoka'nın sunucusu yoktur. Av kayıtlarınız, fotoğraflarınız ve
+    notlarınız yalnızca telefonunuzda durur. Hesap açmanız istenmez, sizi uygulamalar arası
+    takip etmeyiz. Ücretsiz sürümde Google AdMob banner reklamı gösterilir; Zoka Pro'da hiç
+    reklam yoktur.
+  </div>
+
+  <h2>1. Toplanan Veriler</h2>
+  <p>Zoka sizden hiçbir kişisel bilgi istemez. Hesap, e-posta adresi veya telefon numarası
+     gerekmez. <strong>Bize ait bir sunucu yoktur</strong>; dolayısıyla verileriniz bizde
+     toplanmaz, saklanmaz veya satılmaz.</p>
+
+  <h2>2. Cihazınızda Saklanan Bilgiler</h2>
+  <table>
+    <tr><th>Veri</th><th>Nerede durur</th><th>Neden</th></tr>
+    <tr><td>Av kayıtları, fotoğraflar, notlar, seanslar</td><td>Yalnızca cihazınızda</td><td>Av defteri</td></tr>
+    <tr><td>Seçtiğiniz noktalar, favoriler, ayarlar, dil</td><td>Yalnızca cihazınızda</td><td>Uygulamayı hatırlamak</td></tr>
+    <tr><td>İndirilen tahmin (çevrimdışı paket)</td><td>Yalnızca cihazınızda</td><td>Şebeke yokken çalışmak</td></tr>
+  </table>
+  <p>Bu veriler hiçbir sunucuya gönderilmez, tarafımızca görüntülenemez ve uygulamayı
+     sildiğinizde tamamen silinir. Ana ekran widget'ı için özet bir kopya cihaz içindeki
+     uygulama grubunda tutulur; o da cihazdan çıkmaz.</p>
+
+  <h2>3. İzinler</h2>
+  <p>Uygulama yalnızca siz ilgili özelliği kullandığınızda aşağıdaki izinleri ister:</p>
+  <ul>
+    <li><strong>Konum</strong> — size en yakın av noktasını bulmak ve o koordinatın hava/deniz
+        verisini almak için. İsteğe bağlıdır; vermezseniz noktayı listeden elle seçersiniz.</li>
+    <li><strong>Kamera</strong> — balık fotoğrafı çekip tanımlamak ve referans kartla boydan
+        ölçüm yapmak için. Fotoğraf işleme cihazınızda yapılır.</li>
+    <li><strong>Fotoğraf galerisi</strong> — av defterine mevcut bir fotoğrafı eklemek için.</li>
+    <li><strong>Bildirimler</strong> — av penceresi ve rüzgâr/dalga uyarısı için. Bildirimler
+        cihazınızda oluşturulur; içeriği dışarı çıkmaz.</li>
+  </ul>
+
+  <h2>4. Cihazınızdan Dışarı Giden Veriler</h2>
+  <p>Uygulamanın çalışması için kaçınılmaz olarak dışarı giden tek şey, tahmini istediğiniz
+     noktanın koordinatıdır:</p>
+  <ul>
+    <li><strong>Open-Meteo</strong> (open-meteo.com) — hava ve deniz tahmini için yalnızca
+        <strong>enlem ve boylam</strong> gönderilir. İstekte adınız, hesabınız veya bir cihaz
+        kimliği bulunmaz; API anahtarı kullanılmaz.</li>
+    <li><strong>Apple Haritalar</strong> — yer araması yaptığınızda yazdığınız metin ve harita
+        bölgesi Apple'a gider. Apple'ın gizlilik politikasına tabidir.</li>
+    <li><strong>Apple App Store</strong> — abonelik satın alma ve doğrulama.</li>
+    <li><strong>Google AdMob</strong> — yalnızca ücretsiz sürümde reklam sunmak için (aşağıya bakın).</li>
+  </ul>
+
+  <h2>5. Reklam ve Takip</h2>
+  <p>Ücretsiz sürümde Google AdMob banner reklamı gösterilir. Reklam yalnızca <strong>Tahmin,
+     Rehber ve Av Defteri</strong> sekmelerinin altında çıkar. <strong>Tanı sekmesinde ve zehirli
+     tür / ilk yardım ekranlarında reklam yoktur</strong> — bu ekranlar acil durumda okunur ve
+     ücretsiz kalır. Zoka Pro aboneliğinde hiçbir sekmede reklam görünmez.</p>
+  <p>Google, reklam sunmak ve dolandırıcılığı önlemek için cihaz bilgisi ve yaklaşık konum gibi
+     verileri işleyebilir. Ayrıntı için
+     <a href="https://policies.google.com/technologies/ads">Google reklam politikaları</a>.</p>
+  <p>Avrupa Ekonomik Alanı ve Birleşik Krallık'taki kullanıcılara Google'ın onay ekranı (UMP)
+     gösterilir. Tercihinizi istediğiniz zaman <em>Ayarlar → Reklamlar → Reklam gizlilik
+     seçenekleri</em> bölümünden değiştirebilirsiniz.</p>
+  <p>Zoka <strong>App Tracking Transparency izni istemez</strong>, reklam kimliğinizi (IDFA)
+     uygulamalar arası takip için kullanmaz ve kendi bünyesinde hiçbir analitik SDK içermez.
+     Reklamlar bu nedenle kişiselleştirilmemiş olabilir.</p>
+
+  <h2>6. Satın Alma İşlemleri</h2>
+  <p>Zoka Pro abonelikleri doğrudan Apple App Store üzerinden yürür (StoreKit). Ödeme
+     bilgileriniz Apple tarafından işlenir; bu bilgilere erişimimiz yoktur ve aracı bir abonelik
+     servisi kullanmayız. Uygulama Apple'dan yalnızca "abonelik etkin mi, değil mi" bilgisini
+     okur.</p>
+
+  <h2>7. Çocukların Gizliliği</h2>
+  <p>Zoka çocuklara yönelik bir uygulama değildir. 13 yaş altı çocuklardan bilerek veri
+     toplamayız — zaten hiçbir kullanıcıdan kişisel veri toplanmamaktadır.</p>
+
+  <h2>8. Veri Güvenliği</h2>
+  <p>Sunucumuzda kullanıcı verisi tutulmadığı için sunucu tarafında sızıntı riski yoktur.
+     Cihazınızdaki veriler iOS'un standart güvenlik mekanizmalarıyla korunur.</p>
+
+  <h2>9. Haklarınız</h2>
+  <p>Verileriniz yalnızca cihazınızda olduğu için silme, dışa aktarma ve erişim tamamen sizin
+     elinizdedir: <em>Ayarlar → Veri</em> bölümünden av defterinizi CSV, JSON veya GPX olarak
+     dışa aktarabilir, önbelleği ve çevrimdışı paketi temizleyebilirsiniz. Uygulamayı silmek
+     bütün verilerinizi kalıcı olarak kaldırır.</p>
+
+  <h2>10. Değişiklikler</h2>
+  <p>Bu politikada değişiklik yapılması durumunda güncel sürüm bu sayfada yayınlanır ve
+     yukarıdaki tarih güncellenir.</p>
+
+  <h2>11. İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a><br>
+     Destek sayfası: <a href="support/">vibapps.github.io/zoka-legal/support</a></p>
+
+  <!-- ---------------- ENGLISH ---------------- -->
+  <div class="en">
+    <h1>Zoka — Privacy Policy</h1>
+    <div class="date">Last updated: 7 September 2026</div>
+
+    <div class="box">
+      <strong>In short:</strong> Zoka has no server. Your catch log, photos and notes stay on
+      your phone only. No account is required and we do not track you across apps. The free
+      version shows a Google AdMob banner; Zoka Pro shows no ads at all.
+    </div>
+
+    <h2>1. Data We Collect</h2>
+    <p>Zoka asks for no personal information. No account, email address or phone number is
+       needed. <strong>We operate no server</strong>, so your data is never collected, stored
+       or sold by us.</p>
+
+    <h2>2. Data Stored on Your Device</h2>
+    <table>
+      <tr><th>Data</th><th>Where it lives</th><th>Why</th></tr>
+      <tr><td>Catches, photos, notes, sessions</td><td>Your device only</td><td>Catch log</td></tr>
+      <tr><td>Selected spots, favourites, settings, language</td><td>Your device only</td><td>Remembering your setup</td></tr>
+      <tr><td>Downloaded forecast (offline pack)</td><td>Your device only</td><td>Working without a signal</td></tr>
+    </table>
+    <p>None of this is uploaded, none of it is visible to us, and all of it is deleted when you
+       uninstall the app. A summary copy is kept in an on-device app group for the home screen
+       widget; it never leaves the device either.</p>
+
+    <h2>3. Permissions</h2>
+    <p>The app requests these permissions only when you use the related feature:</p>
+    <ul>
+      <li><strong>Location</strong> — to find the nearest fishing spot and fetch the marine and
+          weather data for that coordinate. Optional; without it you pick a spot from the list.</li>
+      <li><strong>Camera</strong> — to photograph and identify a fish and to measure its length
+          against a reference card. Processing happens on your device.</li>
+      <li><strong>Photo library</strong> — to attach an existing photo to your catch log.</li>
+      <li><strong>Notifications</strong> — for bite windows and wind/wave safety warnings.
+          Notifications are created on your device; their content never leaves it.</li>
+    </ul>
+
+    <h2>4. Data That Leaves Your Device</h2>
+    <p>The only thing that must leave your device for the app to work is the coordinate you want
+       a forecast for:</p>
+    <ul>
+      <li><strong>Open-Meteo</strong> (open-meteo.com) — receives only <strong>latitude and
+          longitude</strong> for the weather and marine forecast. The request carries no name,
+          account or device identifier, and no API key.</li>
+      <li><strong>Apple Maps</strong> — when you search for a place, your search text and the map
+          region are sent to Apple, subject to Apple's privacy policy.</li>
+      <li><strong>Apple App Store</strong> — subscription purchase and validation.</li>
+      <li><strong>Google AdMob</strong> — to serve ads in the free version only (see below).</li>
+    </ul>
+
+    <h2>5. Advertising and Tracking</h2>
+    <p>The free version shows a Google AdMob banner. It appears only beneath the
+       <strong>Forecast, Guide and Log</strong> tabs. <strong>There are no ads on the Identify tab
+       or on any venomous-species / first-aid screen</strong> — those screens are read in an
+       emergency and stay free. A Zoka Pro subscription removes ads everywhere.</p>
+    <p>Google may process data such as device information and approximate location to serve ads
+       and prevent fraud. See
+       <a href="https://policies.google.com/technologies/ads">Google's advertising policies</a>.</p>
+    <p>Users in the European Economic Area and the United Kingdom are shown Google's consent form
+       (UMP). You can change your choice at any time under
+       <em>Settings → Ads → Ad privacy options</em>.</p>
+    <p>Zoka <strong>does not request App Tracking Transparency permission</strong>, does not use
+       your advertising identifier (IDFA) for cross-app tracking, and contains no analytics SDK of
+       its own. Ads may therefore be non-personalised.</p>
+
+    <h2>6. Purchases</h2>
+    <p>Zoka Pro subscriptions run directly through the Apple App Store (StoreKit). Your payment
+       details are handled by Apple; we have no access to them and we use no third-party
+       subscription broker. The app reads only whether a subscription is active.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Zoka is not directed at children. We do not knowingly collect data from children under 13 —
+       in fact we collect no personal data from any user.</p>
+
+    <h2>8. Data Security</h2>
+    <p>Because no user data is held on our servers, there is no risk of a server-side breach.
+       Data on your device is protected by iOS's standard security mechanisms.</p>
+
+    <h2>9. Your Rights</h2>
+    <p>Since your data lives only on your device, deletion, export and access are entirely in your
+       hands: under <em>Settings → Data</em> you can export your log as CSV, JSON or GPX and clear
+       the cache and offline pack. Deleting the app removes everything permanently.</p>
+
+    <h2>10. Changes</h2>
+    <p>Any update to this policy will be published on this page with a revised date.</p>
+
+    <h2>11. Contact</h2>
+    <p>Questions: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a><br>
+       Support page: <a href="support/">vibapps.github.io/zoka-legal/support</a></p>
+  </div>
+
+  <footer>Zoka &middot; Volkan İlkay Bedel</footer>
+</div>
+</body>
+</html>
